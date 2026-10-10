@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#3B241C"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="10.5" fill="none" stroke="#C6A15B" stroke-opacity=".55"/>
+  <text x="32" y="41.5" text-anchor="middle" font-family="Didot, 'Bodoni 72', Georgia, 'Times New Roman', serif" font-size="25" fill="#E8D5A8" letter-spacing=".5">F<tspan fill="#C6A15B" font-style="italic" font-size="21" dx="1">&amp;</tspan><tspan dx="1">L</tspan></text>
+</svg>

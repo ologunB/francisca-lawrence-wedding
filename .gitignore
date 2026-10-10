@@ -1,0 +1,9 @@
+# Private source material (original photos ZIPs, reference screenshots, brief)
+_source/
+
+# Local tooling / editor state
+.vercel/
+.claude/
+.governor/
+node_modules/
+.DS_Store

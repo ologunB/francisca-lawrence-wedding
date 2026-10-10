@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Francisca & Lawrence//Wedding//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:francisca-lawrence-wedding-20261219@wedding
+DTSTAMP:20261009T120000Z
+DTSTART:20261219T090000Z
+DTEND:20261219T120000Z
+SUMMARY:Wedding of Francisca & Lawrence
+LOCATION:St. Gregory Catholic Church\, Moniya\, Ibadan\, Oyo State\, Nigeri
+ a
+DESCRIPTION:Church wedding ceremony — 10:00 AM prompt (Nigeria time).\nRe
+ ception to follow at Idunnu Hall Event Centre.\n#FranciscaAndLawrence2026
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Francisca & Lawrence's wedding is tomorrow
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

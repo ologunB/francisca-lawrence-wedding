@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Francisca &amp; Lawrence · 19 December 2026</title>
+  <meta name="description" content="Francisca &amp; Lawrence are getting married! Saturday, 19 December 2026, 10:00 AM at St. Gregory Catholic Church, Moniya, Ibadan. RSVP, directions, gifts and updates.">
+  <meta name="theme-color" content="#3B241C">
+  <meta name="color-scheme" content="light">
+
+  <!-- Social preview (WhatsApp, Facebook, X).
+       If you move to a custom domain, replace "https://francisca-and-lawrence.vercel.app" below,
+       otherwise WhatsApp cannot load the preview image. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Francisca &amp; Lawrence">
+  <meta property="og:title" content="Francisca &amp; Lawrence · Saturday, 19 December 2026">
+  <meta property="og:description" content="Together is a beautiful place to be. Join us at St. Gregory Catholic Church, Moniya, Ibadan · 10:00 AM. Kindly RSVP.">
+  <meta property="og:url" content="https://francisca-and-lawrence.vercel.app/">
+  <meta property="og:image" content="https://francisca-and-lawrence.vercel.app/assets/og-image.jpg?v=2">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Francisca and Lawrence embracing in black formal wear, with their names and wedding date">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Francisca &amp; Lawrence · Saturday, 19 December 2026">
+  <meta name="twitter:description" content="Join us at St. Gregory Catholic Church, Moniya, Ibadan · 10:00 AM.">
+  <meta name="twitter:image" content="https://francisca-and-lawrence.vercel.app/assets/og-image.jpg?v=2">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Warm up the RSVP / gift-list backend so the gift list loads fast -->
+  <link rel="preconnect" href="https://script.google.com">
+  <link rel="preconnect" href="https://script.googleusercontent.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap">
+  <link rel="preload" as="image" href="assets/photos/couple-church.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css?v=202610101649">
+
+  <!-- Marks that JavaScript is running so scroll animations only apply when they can finish. -->
+  <script>
+    (function (d) {
+      d.classList.add('js');
+      // Cover the page before first paint when the envelope intro will show (same rules as initEnvelope in main.js),
+      // so the hero never flashes. Released by main.js, or after 4s as a safety net.
+      try {
+        if (!matchMedia('(prefers-reduced-motion: reduce)').matches && !(location.hash.length > 1) &&
+            !sessionStorage.getItem('fl-v1b-envelope-opened')) {
+          d.classList.add('env-pending');
+          setTimeout(function () { d.classList.remove('env-pending'); }, 4000);
+        }
+      } catch (e) { /* storage blocked: let main.js decide */ }
+    })(document.documentElement);
+  </script>
+  <script src="config.js?v=202610101649" defer></script>
+  <script src="js/main.js?v=202610101649" defer></script>
+</head>
+<body>
+  <!-- ===== Reusable ornaments & icons (inline SVG sprite) ===== -->
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="orn-divider" viewBox="0 0 240 20">
+      <path d="M0 10H96M144 10H240" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M120 3l7 7-7 7-7-7z" stroke="currentColor" stroke-width="1" fill="none"/>
+      <circle cx="104" cy="10" r="1.6" fill="currentColor"/><circle cx="136" cy="10" r="1.6" fill="currentColor"/>
+    </symbol>
+    <symbol id="orn-corner" viewBox="0 0 48 48">
+      <path d="M1 47V1h46" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M7 41V7h34" stroke="currentColor" stroke-width=".75" fill="none"/>
+      <path d="M13 13l4 4-4 4-4-4z" fill="currentColor"/>
+    </symbol>
+    <symbol id="orn-cross" viewBox="0 0 24 40">
+      <path d="M12 1v38M3 12h18" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    </symbol>
+    <!-- Three gently braided strands: "a threefold cord" -->
+    <symbol id="orn-cord" viewBox="0 0 320 20">
+      <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round">
+        <path d="M0 10.0 L3 10.1 L6 10.3 L9 10.4 L12 10.5 L15 10.4 L18 10.0 L21 9.5 L24 9.0 L27 8.7 L30 8.7 L33 9.2 L36 10.0 L39 10.9 L42 11.7 L45 12.1 L48 12.0 L51 11.2 L54 10.0 L57 8.7 L60 7.6 L63 7.1 L66 7.4 L69 8.4 L72 10.0 L75 11.7 L78 13.0 L81 13.6 L84 13.2 L87 11.9 L90 10.0 L93 8.0 L96 6.5 L99 5.9 L102 6.4 L105 7.9 L108 10.0 L111 12.2 L114 13.9 L117 14.6 L120 14.0 L123 12.3 L126 10.0 L129 7.6 L132 5.8 L135 5.1 L138 5.8 L141 7.5 L144 10.0 L147 12.5 L150 14.3 L153 15.0 L156 14.3 L159 12.5 L162 10.0 L165 7.5 L168 5.7 L171 5.0 L174 5.7 L177 7.5 L180 10.0 L183 12.4 L186 14.2 L189 14.8 L192 14.1 L195 12.4 L198 10.0 L201 7.7 L204 6.1 L207 5.5 L210 6.2 L213 7.8 L216 10.0 L219 12.1 L222 13.6 L225 14.0 L228 13.4 L231 11.9 L234 10.0 L237 8.2 L240 6.9 L243 6.6 L246 7.1 L249 8.4 L252 10.0 L255 11.5 L258 12.5 L261 12.7 L264 12.3 L267 11.2 L270 10.0 L273 8.9 L276 8.2 L279 8.0 L282 8.4 L285 9.2 L288 10.0 L291 10.7 L294 11.1 L297 11.1 L300 10.8 L303 10.4 L306 10.0 L309 9.7 L312 9.7 L315 9.8 L318 9.9 L320 10"/>
+        <path d="M0 10.0 L3 10.1 L6 10.0 L9 9.8 L12 9.5 L15 9.3 L18 9.2 L21 9.5 L24 10.0 L27 10.7 L30 11.3 L33 11.6 L36 11.5 L39 10.9 L42 10.0 L45 8.9 L48 8.0 L51 7.6 L54 7.8 L57 8.7 L60 10.0 L63 11.4 L66 12.6 L69 13.1 L72 12.8 L75 11.7 L78 10.0 L81 8.2 L84 6.8 L87 6.2 L90 6.7 L93 8.0 L96 10.0 L99 12.1 L102 13.6 L105 14.3 L108 13.8 L111 12.2 L114 10.0 L117 7.7 L120 6.0 L123 5.3 L126 5.9 L129 7.6 L132 10.0 L135 12.4 L138 14.2 L141 14.9 L144 14.3 L147 12.5 L150 10.0 L153 7.5 L156 5.7 L159 5.0 L162 5.7 L165 7.5 L168 10.0 L171 12.5 L174 14.3 L177 14.9 L180 14.2 L183 12.4 L186 10.0 L189 7.6 L192 5.9 L195 5.3 L198 6.0 L201 7.7 L204 10.0 L207 12.2 L210 13.8 L213 14.3 L216 13.7 L219 12.1 L222 10.0 L225 8.0 L228 6.6 L231 6.2 L234 6.8 L237 8.2 L240 10.0 L243 11.7 L246 12.9 L249 13.2 L252 12.7 L255 11.5 L258 10.0 L261 8.6 L264 7.7 L267 7.5 L270 8.0 L273 8.9 L276 10.0 L279 11.0 L282 11.6 L285 11.7 L288 11.3 L291 10.7 L294 10.0 L297 9.4 L300 9.2 L303 9.2 L306 9.4 L309 9.7 L312 10.0 L315 10.1 L318 10.1 L320 10"/>
+        <path d="M0 10.0 L3 9.9 L6 9.7 L9 9.8 L12 10.0 L15 10.4 L18 10.8 L21 11.0 L24 11.0 L27 10.7 L30 10.0 L33 9.2 L36 8.5 L39 8.1 L42 8.3 L45 8.9 L48 10.0 L51 11.2 L54 12.2 L57 12.7 L60 12.4 L63 11.4 L66 10.0 L69 8.4 L72 7.2 L75 6.6 L78 7.0 L81 8.2 L84 10.0 L87 11.9 L90 13.3 L93 14.0 L96 13.5 L99 12.1 L102 10.0 L105 7.9 L108 6.2 L111 5.6 L114 6.1 L117 7.7 L120 10.0 L123 12.3 L126 14.1 L129 14.8 L132 14.2 L135 12.4 L138 10.0 L141 7.5 L144 5.7 L147 5.0 L150 5.7 L153 7.5 L156 10.0 L159 12.5 L162 14.3 L165 15.0 L168 14.3 L171 12.5 L174 10.0 L177 7.5 L180 5.8 L183 5.1 L186 5.8 L189 7.6 L192 10.0 L195 12.4 L198 14.0 L201 14.6 L204 13.9 L207 12.2 L210 10.0 L213 7.8 L216 6.3 L219 5.8 L222 6.4 L225 8.0 L228 10.0 L231 11.9 L234 13.2 L237 13.6 L240 13.1 L243 11.7 L246 10.0 L249 8.4 L252 7.3 L255 7.0 L258 7.5 L261 8.6 L264 10.0 L267 11.2 L270 12.0 L273 12.2 L276 11.8 L279 11.0 L282 10.0 L285 9.2 L288 8.7 L291 8.6 L294 8.9 L297 9.4 L300 10.0 L303 10.4 L306 10.6 L309 10.5 L312 10.3 L315 10.1 L318 10.0 L320 10"/>
+      </g>
+    </symbol>
+    <!-- Fine line-art botanical sprig -->
+    <symbol id="orn-sprig" viewBox="0 0 64 40">
+      <g fill="none" stroke="currentColor" stroke-width=".9" stroke-linecap="round">
+        <path d="M4 36C18 30 34 22 60 6"/>
+        <path d="M16 31c-2-5 0-10 5-12-1 5-2 9-5 12z"/><path d="M16 31c5 1 10-1 12-5-5 0-9 2-12 5z"/>
+        <path d="M29 24c-1-5 1-9 6-11-1 5-3 8-6 11z"/><path d="M29 24c5 1 9-1 11-5-5 0-8 2-11 5z"/>
+        <path d="M42 16c0-4 2-8 6-9-1 4-3 7-6 9z"/><path d="M42 16c4 1 8-1 10-4-4 0-7 1-10 4z"/>
+        <circle cx="58" cy="7.5" r="1.2" fill="currentColor"/>
+      </g>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="1"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.3"/></g></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3"><rect x="8.5" y="8.5" width="11" height="12" rx="1"/><path d="M15.5 8.5V4.5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h3"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><path d="M12 3.5a8.5 8.5 0 0 0-7.4 12.7L3.5 20.5l4.4-1.1A8.5 8.5 0 1 0 12 3.5z"/><path d="M9 9.2c.2 2.6 2.6 5.3 5.6 5.8l1-1.2-1.6-1-1 .8c-1-.5-1.9-1.4-2.4-2.4l.8-1-1-1.6z" fill="currentColor" stroke="none"/></g></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3.5M7.5 8 12 3.5 16.5 8M5 12.5v7h14v-7"/></g></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M15 4.5 7.5 12l7.5 7.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M9 4.5 16.5 12 9 19.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5 10 17.5 19.5 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></symbol>
+    <symbol id="i-rings" viewBox="0 0 32 24"><g fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="14" r="7"/><circle cx="20" cy="14" r="7"/><path d="M10 5.5 12 3l2 2.5"/></g></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" data-header>
+    <div class="site-header__inner">
+      <a class="monogram" href="#home" aria-label="Francisca and Lawrence — back to top">F<span class="monogram__amp">&amp;</span>L</a>
+      <nav class="desktop-nav" aria-label="Main">
+        <ul>
+          <li><a href="#invitation">Invitation</a></li>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#gifts">Gifts</a></li>
+          <li><a href="#guestbook">Guestbook</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--gold btn--sm header-rsvp" href="#rsvp">RSVP</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+        <span class="menu-toggle__label">Menu</span>
+        <span class="menu-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Full-screen mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Mobile">
+      <ol>
+        <li><a href="#home"><span class="num">01</span>Welcome</a></li>
+        <li><a href="#invitation"><span class="num">02</span>Invitation</a></li>
+        <li><a href="#story"><span class="num">03</span>Our Story</a></li>
+        <li><a href="#details"><span class="num">04</span>Wedding Details</a></li>
+        <li><a href="#updates"><span class="num">05</span>Updates</a></li>
+        <li><a href="#gallery"><span class="num">06</span>Gallery</a></li>
+        <li><a href="#rsvp"><span class="num">07</span>RSVP</a></li>
+        <li><a href="#gifts"><span class="num">08</span>Gifts &amp; Registry</a></li>
+        <li><a href="#colours"><span class="num">09</span>Colours</a></li>
+        <li><a href="#guestbook"><span class="num">10</span>Guestbook</a></li>
+      </ol>
+    </nav>
+    <div class="mobile-menu__foot">
+      <p>Saturday, 19 December 2026 · 10:00 AM</p>
+      <p>St. Gregory Catholic Church, Moniya, Ibadan</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <div class="hero__media">
+          <div class="arch-frame">
+            <div class="arch">
+              <img src="assets/photos/couple-church.jpg" width="810" height="1080"
+                   alt="Francisca and Lawrence smiling and embracing in black formal wear, with a white Pietà statue behind them"
+                   fetchpriority="high" decoding="async">
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__text">
+          <p class="eyebrow eyebrow--light hero__eyebrow">The wedding of</p>
+          <h1 class="hero__names" id="hero-title">
+            <span class="hero__name" data-config="couple.brideFirst">Francisca</span>
+            <span class="hero__amp" aria-label="and">&amp;</span>
+            <span class="hero__name" data-config="couple.groomFirst">Lawrence</span>
+          </h1>
+          <p class="hero__tagline" data-config="couple.tagline">Together Is a Beautiful Place to Be</p>
+          <svg class="ornament hero__ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+          <ul class="hero__meta">
+            <li data-config="wedding.dateLabel">Saturday, 19 December 2026</li>
+            <li><span data-config="church.name">St. Gregory Catholic Church</span>, <span data-config="church.shortAddress">Moniya, Ibadan</span></li>
+            <li>10:00 AM</li>
+          </ul>
+          <div class="hero__actions">
+            <a class="btn btn--gold" href="#rsvp">RSVP Now</a>
+            <a class="btn btn--outline-light" href="#details">View Wedding Details</a>
+          </div>
+
+          <div class="countdown" data-countdown hidden>
+            <p class="countdown__label">Counting down to “I do”</p>
+            <div class="countdown__grid" role="timer" aria-live="off" data-cd-grid>
+              <div class="countdown__unit"><span data-cd="days">00</span><small>Days</small></div>
+              <span class="countdown__sep" aria-hidden="true">:</span>
+              <div class="countdown__unit"><span data-cd="hours">00</span><small>Hours</small></div>
+              <span class="countdown__sep" aria-hidden="true">:</span>
+              <div class="countdown__unit"><span data-cd="mins">00</span><small>Minutes</small></div>
+              <span class="countdown__sep" aria-hidden="true">:</span>
+              <div class="countdown__unit"><span data-cd="secs">00</span><small>Seconds</small></div>
+            </div>
+            <p class="countdown__done" data-cd-done hidden></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FORMAL INVITATION ===================== -->
+    <section class="section section--ivory" id="invitation" aria-labelledby="invite-title">
+      <div class="container container--narrow">
+        <article class="invite reveal">
+          <svg class="invite__corner invite__corner--tl" aria-hidden="true"><use href="#orn-corner"/></svg>
+          <svg class="invite__corner invite__corner--tr" aria-hidden="true"><use href="#orn-corner"/></svg>
+          <svg class="invite__corner invite__corner--bl" aria-hidden="true"><use href="#orn-corner"/></svg>
+          <svg class="invite__corner invite__corner--br" aria-hidden="true"><use href="#orn-corner"/></svg>
+
+          <svg class="invite__cross" aria-hidden="true"><use href="#orn-cross"/></svg>
+          <p class="eyebrow">With joyful hearts</p>
+          <p class="invite__lead">Together with their families</p>
+
+          <div class="invite__families">
+            <div class="invite__family">
+              <p class="invite__family-label" data-config="families.bride.label">The Bride's Family</p>
+              <p class="invite__family-name" data-config="families.bride.name">Late Mr. and Mrs. Adeyinka and Badejos Family</p>
+            </div>
+            <span class="invite__and" aria-hidden="true">&amp;</span>
+            <div class="invite__family">
+              <p class="invite__family-label" data-config="families.groom.label">The Groom's Family</p>
+              <p class="invite__family-name" data-config="families.groom.name">Dr. Ajayi and Mrs. Dupe Arowosegbe Family</p>
+            </div>
+          </div>
+
+          <p class="invite__request">request the pleasure of your company<br>at the Holy Matrimony of their children</p>
+
+          <h2 class="invite__couple" id="invite-title">
+            <span data-config="couple.brideFull">Francisca Oluwadamilola</span>
+            <span class="invite__couple-amp" aria-label="and">&amp;</span>
+            <span data-config="couple.groomFull">Lawrence Oluwatobi</span>
+          </h2>
+
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+
+          <p class="invite__when">
+            on Saturday,<br>
+            the nineteenth of December,<br>
+            two thousand and twenty-six,<br>
+            at ten o’clock in the morning, prompt
+          </p>
+          <p class="invite__where">
+            <strong data-config="church.name">St. Gregory Catholic Church</strong><br>
+            <span data-config="church.address">Moniya, Ibadan, Oyo State, Nigeria</span>
+          </p>
+          <p class="invite__reception" data-invite-reception>Reception to follow after the Mass at Idunnu Hall Event Centre</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== SCRIPTURE ===================== -->
+    <section class="section section--cream scripture" id="scripture" aria-labelledby="scripture-title">
+      <div class="container container--narrow">
+        <div class="scripture__inner reveal">
+          <svg class="scripture__cross" aria-hidden="true"><use href="#orn-cross"/></svg>
+          <p class="eyebrow">Our wedding scripture</p>
+          <h2 class="scripture__title" id="scripture-title">“A threefold cord is not quickly broken.”</h2>
+          <svg class="scripture__cord" aria-hidden="true"><use href="#orn-cord"/></svg>
+
+          <blockquote class="scripture__text">
+            <p><sup>9</sup>Two are better than one; because they have a good reward for their labour. <sup>10</sup>For if they fall, the one will lift up his fellow: but woe to him that is alone when he falleth; for he hath not another to help him up. <sup>11</sup>Again, if two lie together, then they have heat: but how can one be warm alone? <sup>12</sup>And if one prevail against him, two shall withstand him; and a threefold cord is not quickly broken.</p>
+            <footer><cite>Ecclesiastes 4:9–12</cite> <span class="scripture__version">KJV</span></footer>
+          </blockquote>
+
+          <div class="scripture__reflection">
+            <p class="eyebrow">A reflection</p>
+            <p>Two hearts, joined as one, and woven together with God at the centre. On our own we are a single strand; together we lift each other up, keep each other warm and stand firm. With Christ as the third strand, the cord holds — through every season, for a lifetime.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== OUR STORY ===================== -->
+    <section class="section section--ivory story" id="story" aria-labelledby="story-title">
+      <div class="container story__grid">
+        <div class="story__portraits">
+          <figure class="portrait reveal">
+            <div class="arch arch--soft">
+              <img src="assets/photos/thumbs/francisca.jpg" width="600" height="800" loading="lazy" decoding="async"
+                   alt="Francisca in an elegant black jumpsuit before tall arched black doors" style="object-position:47% 28%">
+            </div>
+            <figcaption>Francisca</figcaption>
+          </figure>
+          <figure class="portrait portrait--offset reveal">
+            <div class="arch arch--soft">
+              <img src="assets/photos/thumbs/lawrence.jpg" width="600" height="800" loading="lazy" decoding="async"
+                   alt="Lawrence in a black tuxedo and bow tie before a white Pietà statue" style="object-position:48% 52%">
+            </div>
+            <figcaption>Lawrence</figcaption>
+          </figure>
+        </div>
+        <div class="story__text reveal">
+          <p class="eyebrow">How it began</p>
+          <h2 class="section-title section-title--script" id="story-title" data-config="story.title">Our Story</h2>
+          <svg class="ornament ornament--left" aria-hidden="true"><use href="#orn-divider"/></svg>
+          <div class="story__body prose" data-story>
+            <!-- Filled from CONFIG.story.paragraphs -->
+            <p>Two people, one faith, and a love that has grown into a lifetime promise. We are grateful to God for bringing us together, and to everyone who has walked this road with us. On 19 December, we begin a new chapter, and we would love you to be there.</p>
+          </div>
+          <p class="story__sign">— <span data-config="couple.brideFirst">Francisca</span> &amp; <span data-config="couple.groomFirst">Lawrence</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WEDDING DETAILS ===================== -->
+    <section class="section section--espresso details" id="details" aria-labelledby="details-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow eyebrow--light">Save the date</p>
+          <h2 class="section-title" id="details-title">Wedding Details</h2>
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+        </header>
+
+        <div class="details__grid">
+          <!-- Church ceremony -->
+          <article class="event-card reveal" aria-labelledby="church-title">
+            <svg class="event-card__icon" aria-hidden="true"><use href="#orn-cross"/></svg>
+            <p class="event-card__kicker">The Ceremony</p>
+            <h3 class="event-card__title" id="church-title">Church Wedding</h3>
+            <ul class="event-card__facts">
+              <li><svg aria-hidden="true"><use href="#i-calendar"/></svg><span data-config="wedding.dateLabel">Saturday, 19 December 2026</span></li>
+              <li><svg aria-hidden="true"><use href="#i-clock"/></svg><span data-config="wedding.timeLabel">10:00 AM prompt</span></li>
+              <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span><strong data-config="church.name">St. Gregory Catholic Church</strong><br><span data-config="church.address">Moniya, Ibadan, Oyo State, Nigeria</span><small class="event-card__note" data-config="church.directionsNote">Sawmill area, along Moniya–Iseyin Road (Akinyele LGA)</small></span></li>
+            </ul>
+            <div class="event-card__actions">
+              <a class="btn btn--gold btn--block" data-church-directions target="_blank" rel="noopener"
+                 href="https://www.google.com/maps/search/?api=1&amp;query=St+Gregory+Catholic+Church%2C+Moniya%2C+Ibadan%2C+Oyo+State%2C+Nigeria">
+                <svg aria-hidden="true"><use href="#i-pin"/></svg>Get Directions</a>
+              <div class="btn-pair">
+                <a class="btn btn--outline-light" data-gcal target="_blank" rel="noopener"
+                   href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Wedding%20of%20Francisca%20%26%20Lawrence&amp;dates=20261219T090000Z%2F20261219T120000Z&amp;details=Church%20wedding%20ceremony%20%E2%80%94%2010%3A00%20AM%20prompt.&amp;location=St.%20Gregory%20Catholic%20Church%2C%20Moniya%2C%20Ibadan%2C%20Oyo%20State%2C%20Nigeria&amp;ctz=Africa%2FLagos">
+                  <svg aria-hidden="true"><use href="#i-calendar"/></svg>Google Calendar</a>
+                <a class="btn btn--outline-light" href="wedding.ics" download="Francisca-and-Lawrence-Wedding.ics">
+                  <svg aria-hidden="true"><use href="#i-download"/></svg>Download .ics</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Reception (rendered from CONFIG.reception) -->
+          <article class="event-card event-card--reception reveal" aria-labelledby="reception-title" data-reception>
+            <svg class="event-card__icon event-card__icon--rings" aria-hidden="true"><use href="#i-rings"/></svg>
+            <p class="event-card__kicker">The Reception</p>
+            <h3 class="event-card__title" id="reception-title">The Celebration Continues</h3>
+            <div data-reception-body>
+              <ul class="event-card__facts">
+                <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span><strong>Idunnu Hall Event Centre</strong><br>Ebenezer Estate, New Oyo Road, Moniya, Ibadan, Oyo State<small class="event-card__note">Near the Ayo Adeseun Ni-Met Station / Obafemi Awolowo Train Station, Moniya</small></span></li>
+                <li><svg aria-hidden="true"><use href="#i-clock"/></svg><span>Immediately after the Mass</span></li>
+              </ul>
+              <div class="event-card__actions">
+                <a class="btn btn--gold btn--block" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Idunnu+Hall+Event+Centre%2C+Ebenezer+Estate%2C+New+Oyo+Road%2C+Moniya%2C+Ibadan"><svg aria-hidden="true"><use href="#i-pin"/></svg>Get Directions</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Order of the Day (rendered from CONFIG.timeline) -->
+        <div class="timeline reveal">
+          <h3 class="timeline__title">Order of the Day</h3>
+          <ol class="timeline__list" data-timeline>
+            <li><span class="timeline__icon" aria-hidden="true"><svg class="is-cross"><use href="#orn-cross"/></svg></span><span class="timeline__time">10:00 AM</span><span class="timeline__what">Holy Matrimony</span><span class="timeline__where">St. Gregory Catholic Church</span></li>
+            <li><span class="timeline__icon" aria-hidden="true"><svg><use href="#i-rings"/></svg></span><span class="timeline__time">After Mass</span><span class="timeline__what">Reception</span><span class="timeline__where">Idunnu Hall Event Centre</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== UPDATES ===================== -->
+    <section class="section section--ivory updates" id="updates" aria-labelledby="updates-title">
+      <div class="container container--narrow">
+        <header class="section-head reveal">
+          <p class="eyebrow">News from the couple</p>
+          <h2 class="section-title" id="updates-title">Updates</h2>
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+        </header>
+        <ol class="updates__list" data-updates>
+          <!-- Filled from CONFIG.announcements -->
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="section section--cream gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Moments together</p>
+          <h2 class="section-title" id="gallery-title">Gallery</h2>
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+        </header>
+        <ul class="gallery__grid" data-gallery>
+          <!-- Filled from CONFIG.gallery -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== RSVP ===================== -->
+    <section class="section section--espresso rsvp" id="rsvp" aria-labelledby="rsvp-title">
+      <div class="container container--form">
+        <header class="section-head reveal">
+          <p class="eyebrow eyebrow--light">Kindly RSVP</p>
+          <h2 class="section-title" id="rsvp-title">Will You Join Us?</h2>
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+          <p class="section-lead">We would be honoured to celebrate with you.</p>
+          <p class="deadline">Kindly reply by <span class="nowrap" data-config="rsvp.deadline">Saturday, 28 November 2026</span></p>
+        </header>
+
+        <div class="form-card reveal" data-rsvp-card>
+          <div class="notice" data-rsvp-previous hidden></div>
+          <noscript><div class="notice"><p>Our RSVP form needs JavaScript. Please enable it, or send your RSVP to the couple on WhatsApp.</p></div></noscript>
+
+          <form class="form" data-rsvp-form novalidate>
+            <div class="field">
+              <label for="rsvp-name">Full name</label>
+              <input id="rsvp-name" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="rsvp-name-error">
+              <p class="field__error" id="rsvp-name-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="rsvp-phone">Phone number <span class="field__hint">(WhatsApp preferred)</span></label>
+              <input id="rsvp-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="e.g. 0803 123 4567" required aria-describedby="rsvp-phone-error">
+              <p class="field__error" id="rsvp-phone-error" aria-live="polite"></p>
+            </div>
+
+            <fieldset class="field">
+              <legend>Will you attend?</legend>
+              <div class="choice-cards">
+                <label class="choice-card">
+                  <input type="radio" name="attendance" value="accept" required aria-describedby="rsvp-attendance-error">
+                  <span class="choice-card__dot" aria-hidden="true"></span>
+                  <span class="choice-card__body">
+                    <span class="choice-card__title">Joyfully accepts</span>
+                    <span class="choice-card__sub">I’ll be there to celebrate</span>
+                  </span>
+                </label>
+                <label class="choice-card">
+                  <input type="radio" name="attendance" value="decline">
+                  <span class="choice-card__dot" aria-hidden="true"></span>
+                  <span class="choice-card__body">
+                    <span class="choice-card__title">Regretfully declines</span>
+                    <span class="choice-card__sub">With you in spirit</span>
+                  </span>
+                </label>
+              </div>
+              <p class="field__error" id="rsvp-attendance-error" aria-live="polite"></p>
+            </fieldset>
+
+            <div class="accept-only" data-accept-only hidden>
+              <div class="field">
+                <label for="rsvp-guests">Number of guests <span class="field__hint">(including you)</span></label>
+                <div class="stepper" data-stepper>
+                  <button type="button" class="stepper__btn" data-step="-1" aria-label="One fewer guest" aria-controls="rsvp-guests">&minus;</button>
+                  <input id="rsvp-guests" name="guests" type="number" inputmode="numeric" min="1" max="5" value="1" aria-describedby="rsvp-guests-hint">
+                  <button type="button" class="stepper__btn" data-step="1" aria-label="One more guest" aria-controls="rsvp-guests">+</button>
+                </div>
+                <p class="field__count" id="rsvp-guests-hint">Up to <span data-config="rsvp.maxGuests">5</span> people per RSVP.</p>
+              </div>
+
+              <div class="field">
+                <label for="rsvp-event">Which part will you attend?</label>
+                <div class="select">
+                  <select id="rsvp-event" name="event" data-event-select>
+                    <option>Church Ceremony &amp; Reception</option>
+                    <option>Church Ceremony only</option>
+                    <option>Reception only</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="rsvp-message">Message to the couple <span class="field__hint">(optional)</span></label>
+              <textarea id="rsvp-message" name="message" rows="3" maxlength="500" data-counter="rsvp-message-count"></textarea>
+              <p class="field__count" id="rsvp-message-count" aria-live="off">0 / 500</p>
+            </div>
+
+            <!-- Spam trap: real people never see or fill this -->
+            <div class="hp" aria-hidden="true">
+              <label for="rsvp-website">Website</label>
+              <input id="rsvp-website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form__status" data-rsvp-status role="status" aria-live="polite"></div>
+
+            <button class="btn btn--dark btn--block btn--lg" type="submit" data-rsvp-submit>
+              <span class="btn__label">Send RSVP</span>
+            </button>
+            <p class="form__fineprint">Your details are only shared with the couple.</p>
+          </form>
+
+          <!-- Confirmation screen (filled by JS) -->
+          <div class="confirmation" data-rsvp-confirmation hidden tabindex="-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GIFTS ===================== -->
+    <section class="section section--cream gifts" id="gifts" aria-labelledby="gifts-title">
+      <div class="container container--narrow">
+        <header class="section-head reveal">
+          <p class="eyebrow">With gratitude</p>
+          <h2 class="section-title" id="gifts-title">A Gift From the Heart</h2>
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+          <p class="section-lead">Your presence, your love and your prayers mean the most to us — truly, they are gift enough. If you would like to bless our new beginning, you are welcome to choose something from our wishlist or send a cash gift. Giving is entirely optional.</p>
+        </header>
+
+        <!-- Gift registry (items come from the couple's Google Sheet: GET ?action=registry) -->
+        <div class="registry" id="registry" data-registry aria-labelledby="registry-title">
+          <div class="registry__head reveal">
+            <h3 class="registry__title" id="registry-title" data-registry-title>Our Wishlist</h3>
+            <p class="registry__intro" data-registry-intro>If you’d like to bless our new home, here are a few things we’d treasure.</p>
+          </div>
+          <div class="registry__notice" data-registry-notice role="status" aria-live="polite" tabindex="-1"></div>
+          <div class="registry__body" data-registry-body aria-busy="true">
+            <noscript><p class="registry__fallback-text">Our wishlist needs JavaScript to load. If you’d like to send a cash gift, the bank details are just below.</p></noscript>
+          </div>
+
+          <!-- Cash gift / bank details. With the wishlist loaded, main.js moves this card inside the
+               "Cash gift" item (shown when the guest taps it). Without JS, or if the list can't load,
+               it stays here, at the foot of the gift list. -->
+          <div class="registry__cash" data-registry-cash>
+            <p class="gift__subhead">A cash gift</p>
+            <div class="bank-card" id="bank-details" tabindex="-1" aria-label="Bank transfer details">
+              <p class="bank-card__kicker">Bank transfer</p>
+              <dl class="bank-card__rows">
+                <div><dt>Bank</dt><dd data-config="gifts.bank.bankName">Wema Bank</dd></div>
+                <div><dt>Account name</dt><dd data-config="gifts.bank.accountName">Lawrence Arowosegbe</dd></div>
+                <div class="bank-card__number"><dt>Account number</dt><dd data-config="gifts.bank.accountNumber" data-account-number>0267406713</dd></div>
+              </dl>
+              <button class="btn btn--gold btn--block" type="button" data-copy-account>
+                <svg aria-hidden="true"><use href="#i-copy"/></svg><span>Copy Account Number</span>
+              </button>
+              <a class="btn btn--outline-light btn--block" data-paystack hidden target="_blank" rel="noopener" href="#">Give Online with Paystack</a>
+            </div>
+          </div>
+          <p class="gift__thanks">Thank you for your love and generosity.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== COLOURS ===================== -->
+    <section class="section section--ivory colours" id="colours" aria-labelledby="colours-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Colour inspiration</p>
+          <h2 class="section-title" id="colours-title">Brown &amp; Gold</h2>
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+          <p class="section-lead">Our wedding colours are rich brown and warm gold. If you’d love to join in, here is a little inspiration — but please wear whatever makes you feel wonderful. This is not a dress code.</p>
+        </header>
+
+        <ul class="swatches reveal" data-swatches>
+          <!-- Rendered from CONFIG.palette -->
+        </ul>
+
+        <div class="outfits">
+          <article class="outfit reveal">
+            <p class="eyebrow">For the ladies</p>
+            <h3>Gele &amp; Aso-Oke</h3>
+            <ul>
+              <li>Champagne or antique-gold aso-oke with a sculpted gele</li>
+              <li>Chocolate-brown lace with gold beading or embroidery</li>
+              <li>Soft neutrals — cream, ivory or nude — with gold accessories</li>
+            </ul>
+          </article>
+          <article class="outfit reveal">
+            <p class="eyebrow">For the gentlemen</p>
+            <h3>Agbada &amp; Tailoring</h3>
+            <ul>
+              <li>Agbada or kaftan in espresso, chocolate or champagne</li>
+              <li>A gold fila to complement a brown or cream outfit</li>
+              <li>A brown suit, or a dark suit with a gold tie or pocket square</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GUESTBOOK ===================== -->
+    <section class="section section--cream guestbook" id="guestbook" aria-labelledby="guestbook-title">
+      <div class="container container--form">
+        <header class="section-head reveal">
+          <p class="eyebrow">Wishes &amp; prayers</p>
+          <h2 class="section-title" id="guestbook-title">Guestbook</h2>
+          <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+          <p class="section-lead">Leave a wish, a prayer or a word of advice for the couple.</p>
+        </header>
+
+        <div class="form-card reveal">
+          <form class="form" data-guestbook-form novalidate>
+            <div class="field">
+              <label for="gb-name">Your name</label>
+              <input id="gb-name" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="gb-name-error">
+              <p class="field__error" id="gb-name-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="gb-message">Your message</label>
+              <textarea id="gb-message" name="message" rows="4" maxlength="400" required aria-describedby="gb-message-error" data-counter="gb-message-count"></textarea>
+              <p class="field__count" id="gb-message-count" aria-live="off">0 / 400</p>
+              <p class="field__error" id="gb-message-error" aria-live="polite"></p>
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="gb-website">Website</label>
+              <input id="gb-website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="form__status" data-guestbook-status role="status" aria-live="polite"></div>
+            <button class="btn btn--dark btn--block" type="submit" data-guestbook-submit><span class="btn__label">Sign the Guestbook</span></button>
+          </form>
+        </div>
+
+        <div class="wishes" data-wishes hidden>
+          <h3 class="wishes__title">Wishes from our loved ones</h3>
+          <ul class="wishes__list" data-wishes-list></ul>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== CLOSING ===================== -->
+    <section class="closing section--ivory" aria-label="Thank you">
+      <svg class="closing__sprig" aria-hidden="true"><use href="#orn-sprig"/></svg>
+      <p class="closing__script">Thank You</p>
+      <p class="closing__caps"><span data-config="couple.brideFirst">Francisca</span> &amp; <span data-config="couple.groomFirst">Lawrence</span><span class="closing__date">19 · 12 · 2026</span></p>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__mono" aria-hidden="true">F<span>&amp;</span>L</p>
+      <p class="site-footer__names"><span data-config="couple.brideFirst">Francisca</span> &amp; <span data-config="couple.groomFirst">Lawrence</span></p>
+      <p class="site-footer__date">Saturday, 19 December 2026 · Ibadan</p>
+      <p class="site-footer__hashtag" data-config="couple.hashtag">#DamifoundherLaw26</p>
+
+      <div class="site-footer__actions">
+        <a class="btn btn--gold" data-share-whatsapp target="_blank" rel="noopener"
+           href="https://wa.me/?text=Francisca%20%26%20Lawrence%20are%20getting%20married%20%E2%80%94%20Saturday%2C%2019%20December%202026%2C%20St.%20Gregory%20Catholic%20Church%2C%20Moniya%2C%20Ibadan.">
+          <svg aria-hidden="true"><use href="#i-share"/></svg>Share on WhatsApp</a>
+        <a class="btn btn--outline-light" data-help-whatsapp hidden target="_blank" rel="noopener" href="#">
+          <svg aria-hidden="true"><use href="#i-chat"/></svg>Need help? WhatsApp us</a>
+      </div>
+
+      <svg class="ornament" aria-hidden="true"><use href="#orn-divider"/></svg>
+      <p class="site-footer__credit">Made with love for Francisca &amp; Lawrence · © 2026</p>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile RSVP button -->
+  <a class="rsvp-pill" href="#rsvp" data-rsvp-pill>RSVP Now</a>
+
+  <!-- Toast message (copy confirmations etc.) -->
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <!-- Photo lightbox -->
+  <div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <div class="lightbox__backdrop" data-lb-close></div>
+    <figure class="lightbox__figure">
+      <img data-lb-img alt="">
+      <figcaption class="lightbox__caption"><span data-lb-count></span></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__btn--close" type="button" data-lb-close aria-label="Close photo viewer"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+    <button class="lightbox__btn lightbox__btn--prev" type="button" data-lb-prev aria-label="Previous photo"><svg aria-hidden="true"><use href="#i-prev"/></svg></button>
+    <button class="lightbox__btn lightbox__btn--next" type="button" data-lb-next aria-label="Next photo"><svg aria-hidden="true"><use href="#i-next"/></svg></button>
+  </div>
+
+  <!-- Gift pledge dialog ("I'll get this") -->
+  <div class="pledge" data-pledge role="dialog" aria-modal="true" aria-labelledby="pledge-title" hidden>
+    <div class="pledge__backdrop" data-pledge-close></div>
+    <div class="pledge__panel form-card">
+      <button class="pledge__close" type="button" data-pledge-close aria-label="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+      <form class="form" data-pledge-form novalidate>
+        <div class="pledge__head">
+          <p class="eyebrow">You’ve chosen</p>
+          <h2 class="pledge__title" id="pledge-title" data-pledge-item>Gift</h2>
+          <p class="pledge__note">Just let us know who it’s from, so we can say thank you. Nothing to pay here.</p>
+        </div>
+        <div class="field">
+          <label for="pledge-name">Your name</label>
+          <input id="pledge-name" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="pledge-name-error">
+          <p class="field__error" id="pledge-name-error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="pledge-phone">Phone number <span class="field__hint">(WhatsApp preferred)</span></label>
+          <input id="pledge-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="20" placeholder="e.g. 0803 123 4567" required aria-describedby="pledge-phone-error">
+          <p class="field__error" id="pledge-phone-error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="pledge-message">A note to the couple <span class="field__hint">(optional)</span></label>
+          <textarea id="pledge-message" name="message" rows="2" maxlength="200" data-counter="pledge-message-count"></textarea>
+          <p class="field__count" id="pledge-message-count" aria-live="off">0 / 200</p>
+        </div>
+        <div class="hp" aria-hidden="true">
+          <label for="pledge-website">Website</label>
+          <input id="pledge-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="form__status" data-pledge-status role="status" aria-live="polite"></div>
+        <button class="btn btn--dark btn--block" type="submit" data-pledge-submit><span class="btn__label">Confirm My Gift</span></button>
+        <button class="btn btn--outline-dark btn--block" type="button" data-pledge-close>Cancel</button>
+      </form>
+      <div class="confirmation" data-pledge-done hidden tabindex="-1"></div>
+    </div>
+  </div>
+</body>
+</html>
