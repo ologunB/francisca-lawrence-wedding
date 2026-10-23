@@ -353,6 +353,17 @@
   /* ======================================================================
      5. Content rendered from config
      ====================================================================== */
+  /* Hide the whole Gifts section (and every link to it) when the couple's gift list is empty.
+     A failed load is different: it keeps the section with the WhatsApp fallback. */
+  function setGiftsVisible(show) {
+    var sec = document.getElementById('gifts');
+    if (sec) sec.hidden = !show;
+    Array.prototype.forEach.call(document.querySelectorAll('a[href="#gifts"], a[href="#registry"]'), function (a) {
+      var li = a.closest('li');
+      (li || a).hidden = !show;
+    });
+  }
+
   function renderStory() {
     var box = $('[data-story]');
     var paras = C.story && C.story.paragraphs;
@@ -942,7 +953,8 @@
     function render() {
       list.removeAttribute('aria-busy');
       list.textContent = '';
-      if (!items.length) return fallback();
+      if (!items.length) return setGiftsVisible(false);
+      setGiftsVisible(true);
       var rows = items.slice();
       if (!rows.some(isCash)) rows.unshift({ id: null, name: 'Cash gift', category: 'Money' });   // bank details always reachable
       var groups = [], byCat = {};
