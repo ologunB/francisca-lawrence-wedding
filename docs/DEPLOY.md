@@ -154,7 +154,7 @@ Almost everything guests read lives in **`site-vX/config.js`**. Open it in any t
 reception: {
   confirmed: true,
   name: "Idunnu Hall Event Centre",
-  address: "Ebenezer Estate, New Oyo Road, Moniya, Ibadan, Oyo State",
+  address: "Ebenezer Estate, New Oyo Express Road, Tose/Ayerokun, Moniya, Ibadan, Oyo State",
   landmark: "Near the Ayo Adeseun Ni-Met Station / Obafemi Awolowo Train Station, Moniya",
   time: "To follow after the church service",
   mapsUrl: "https://maps.app.goo.gl/..."

@@ -60,12 +60,12 @@ window.CONFIG = {
   reception: {
     confirmed: true,
     name: "Idunnu Hall Event Centre",
-    address: "Ebenezer Estate, New Oyo Road, Moniya, Ibadan, Oyo State",
+    address: "Ebenezer Estate, New Oyo Express Road, Tose/Ayerokun, Moniya, Ibadan, Oyo State",
     // Small helper text shown under the address. Set to "" to hide.
     landmark: "Near the Ayo Adeseun Ni-Met Station / Obafemi Awolowo Train Station, Moniya",
     time: "Immediately after the Mass",
     // search link; replace with maps.app.goo.gl share link if preferred
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Idunnu+Hall+Event+Centre%2C+Ebenezer+Estate%2C+New+Oyo+Road%2C+Moniya%2C+Ibadan"
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Idunnu+Hall%2C+Ebenezer+Estate%2C+New+Oyo+Express+Road%2C+Tose%2FAyerokun%2C+Moniya%2C+Ibadan"
   },
 
   /* ---------- Order of the Day ----------
@@ -148,7 +148,7 @@ window.CONFIG = {
     {
       date: "2026-10-09",
       title: "Reception venue confirmed: Idunnu Hall Event Centre",
-      body: "We're delighted to share that the reception will be held at Idunnu Hall Event Centre, immediately after the Mass. The venue is on New Oyo Road, Moniya — just a short drive from the church. Directions are in the Wedding Details section."
+      body: "We're delighted to share that the reception will be held at Idunnu Hall Event Centre, immediately after the Mass. The venue is on New Oyo Express Road, Tose/Ayerokun, Moniya — just a short drive from the church. Directions are in the Wedding Details section."
     },
     {
       date: "2026-10-09",
